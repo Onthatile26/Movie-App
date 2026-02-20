@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Movie App</h1>
+  </header>
+
+  <section class="search-area">
+    <input type="text" id="searchInput" placeholder="Search for a movie...">
+    <button id="searchBtn">Search</button>
+  </section>
+
+  <p id="feedbackMessage" class="feedback"></p>
+
+  <main class="movie-container" id="movieContainer"></main>
+
+  <div id="loading" class="hidden">
+    <div class="spinner"></div>
+    <p>Loading movies...</p>
+  </div>
+
+  <script src="movie.js"></script>
+
+</body>
+</html>
